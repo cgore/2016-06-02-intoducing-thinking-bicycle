@@ -184,6 +184,22 @@
 
 
 \begin{slide}
+  \h{I made a website!}
+
+  \fullSlideImage{geocities.eps}
+
+  \textit{(It's not quite that bad.)}
+\end{slide}
+
+
+\begin{slide}
+  \h{Like all websites, it's eternally under construction.}
+
+  \fullSlideImage{under-construction.eps}
+\end{slide}
+
+
+\begin{slide}
   \h{Basic Text Formatting}
 
 \begin{lstlisting}
