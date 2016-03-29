@@ -195,16 +195,34 @@
 \begin{slide}
   \h{It's called Thinking Bicycle.com}
 
-  \includegraphics[height=2in
-  ]{thinker.eps}
+  \includegraphics[height=2in]{thinker.eps}
   \includegraphics[height=2in]{bicycle.eps}
+
+  Thinking Bicycle \textellipsis \textit{intelligent machine}.
 \end{slide}
 
 
 \begin{slide}
-  \h{Like all websites, it's eternally under construction.}
+  \h{Like so many websites, it's eternally under construction.}
 
   \fullSlideImage{under-construction.eps}
+\end{slide}
+
+
+\begin{slide}
+  \h{I've always been really interested in AI \textellipsis}
+
+  \fullSlideImage{watson.eps}
+\end{slide}
+
+
+\begin{slide}
+  \h{\textellipsis Real AI.}
+
+  \fullSlideImage{hal-9000.eps}
+
+  If it can't become a murdering Machiavellian psycopath, it's not
+  \textbf{\textit{real}} AI.
 \end{slide}
 
 
