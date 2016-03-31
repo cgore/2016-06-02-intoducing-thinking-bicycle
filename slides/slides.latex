@@ -227,6 +227,49 @@
 
 
 \begin{slide}
+  \h{I've started from scratch three times with this project, but I think I'm on the right track now.}
+
+  \fullSlideImage{third-try.eps}
+\end{slide}
+
+
+\begin{slide}
+  \h{We need a whole lot of human-curated information, all interconnected.}
+
+  \begin{itemize}
+  \item Links
+  \item Keywords
+  \item Tags, bookmarks, shares
+  \item Forums, chats, messages
+  \item Notes
+  \item \textellipsis
+  \end{itemize}
+\end{slide}
+
+
+\begin{slide}
+  \h{We need programmability everywhere.}
+\end{slide}
+
+
+\begin{slide}
+  \h{We need xanalogical transclusions everywhere.}
+\end{slide}
+
+
+\begin{slide}
+  \h{We need lots of real data about everything.}
+\end{slide}
+
+
+\begin{slide}
+  \h{And then we can finally get started on the future of human-computer interaction.}
+
+  \fullSlideImage{terminator-longslide.eps}
+\end{slide}
+
+
+\begin{slide}
   \h{Basic Text Formatting}
 
   \textbf{Bold text:}
