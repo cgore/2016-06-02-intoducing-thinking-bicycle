@@ -266,6 +266,13 @@
 
 
 \begin{slide}
+  \h{We need programmability everywhere.}
+
+  \fullSlideImage{difference-engine.eps}
+\end{slide}
+
+
+\begin{slide}
   \h{We need a whole lot of human-curated information, all interconnected.}
 
   \begin{itemize}
@@ -274,18 +281,17 @@
   \item Tags, bookmarks, shares
   \item Forums, chats, messages
   \item Notes
+  \item Databases
+  \item Spreadsheets
   \item \textellipsis
   \end{itemize}
 \end{slide}
 
 
 \begin{slide}
-  \h{We need programmability everywhere.}
-\end{slide}
-
-
-\begin{slide}
   \h{We need xanalogical transclusions everywhere.}
+
+  \fullSlideImage{xanalinks.eps}
 \end{slide}
 
 
