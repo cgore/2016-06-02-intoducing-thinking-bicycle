@@ -197,6 +197,20 @@
 
 
 \begin{slide}
+  \h{I think you should reach for the stars with your toy projects.}
+
+  \fullSlideImage{saturn5.eps}
+\end{slide}
+
+
+\begin{slide}
+  \h{Because even if you fail, you'll probably come up with some cool stuff on the way.}
+
+  \fullSlideImage{tang.eps}
+\end{slide}
+
+
+\begin{slide}
   \h{I made a website!}
 
   \fullSlideImage{geocities.eps}
@@ -206,12 +220,10 @@
 
 
 \begin{slide}
-  \h{It's called Thinking Bicycle.com}
+  \h{It's called Thinking Bicycle.}
 
   \includegraphics[height=2in]{thinker.eps}
   \includegraphics[height=2in]{bicycle.eps}
-
-  Thinking Bicycle \textellipsis \textit{intelligent machine}.
 \end{slide}
 
 
@@ -226,7 +238,6 @@
   \h{I'm going to talk some about long-term goals, but I'm not trying to sell vaporware.}
 
   \fullSlideImage{perl-6-cover.eps}
-
 \end{slide}
 
 
