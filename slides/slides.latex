@@ -184,6 +184,19 @@
 
 
 \begin{slide}
+  \h{Side projects are a great way to experiment with things you personally find interesting.
+    They are a great way to learn new things, and to experiment with great ideas.}
+
+  \begin{itemize}
+  \item You need one!
+  \item Don't be worried about success, it's just a toy/experiment/learning experience/whatever.
+  \item Do something out of your comfort zone.
+  \item Do something you personally will find interesting.
+  \end{itemize}
+\end{slide}
+
+
+\begin{slide}
   \h{I made a website!}
 
   \fullSlideImage{geocities.eps}
@@ -210,7 +223,15 @@
 
 
 \begin{slide}
-  \h{I've always been really interested in AI \textellipsis}
+  \h{I'm going to talk some about long-term goals, but I'm not trying to sell vaporware.}
+
+  \fullSlideImage{perl-6-cover.eps}
+
+\end{slide}
+
+
+\begin{slide}
+  \h{What was the original goal of this project?\\I've always been really interested in AI \textellipsis}
 
   \fullSlideImage{watson.eps}
 \end{slide}
