@@ -259,7 +259,7 @@
 
 
 \begin{slide}
-  \h{But we can't make a real AI!}
+  \h{But we can't make a ``Real'' AI.}
 
   \fullSlideImage{yes-we-khan.eps}
 \end{slide}
@@ -317,37 +317,164 @@
 
 
 \begin{slide}
-  \h{Basic Text Formatting}
+  \h{Currently, text on the Web sucks.}
 
-  \textbf{Bold text:}
-  \lstinline!\b{bold text}!
+  \begin{itemize}
+  \item Plain text sucks.
+  \item Unicode sucks.
+  \item Markdown sucks.
+  \item Wikis suck.
+  \item HTML \textbf{really} sucks.
+  \end{itemize}
+\end{slide}
 
-  \textit{Italic text:}
-  \lstinline!\it{italic text}!
 
-  \textit{\textbf{Commands can nest:}}
-  \lstinline!\it{\b{commands can nest}}!
+\begin{slide}
+  \h{How do we make it not suck?\\Maybe even awesome?\\Make it fully programmable.}
 
-  \sout{Strike through text:}
-  \lstinline!\s{strike through}!
+  \fullSlideImage{welcome-to-the-internet.eps}
+\end{slide}
 
-  \underline{Underlined text:}
-  \lstinline!\u{underlined text}!
 
-  \texttt{Teletype-style text:}
-  \lstinline!\tt{teletype-style text}!
+\begin{slide}
+  \h{Teepee:\\A home for everywhere you choose to wander.}
 
-  Sub\textsubscript{scripts}:
-  \lstinline!sub\sub{scripts}!
+  \fullSlideImage{teepee.eps}
+\end{slide}
 
-  Super\textsuperscript{scripts}:
-  \lstinline!super\sup{scripts}!
 
-  {\large Bigger} text:
-  \lstinline!\big{bigger} text!
+\begin{slide}
+  \h{Teepee:\\A programming language for everything you choose to type.}
 
-  {\small Smaller} text:
-  \lstinline!\small{smaller} text!
+  \fullSlideImage{future-teepee.eps}
+\end{slide}
+
+
+\begin{slide}
+  \h{Paragraphs in Teepee}
+
+\begin{lstlisting}
+This is the first paragraph.
+This is also the first paragraph.
+
+This is the second paragraph.
+This is also the second paragraph.
+\end{lstlisting}
+\end{slide}
+
+
+\begin{slide}
+  \h{Functions in Teepee}
+
+\begin{lstlisting}
+Some text ...
+Text \some-function{foo bar baz ...} text ...
+Some text ...
+\end{lstlisting}
+\end{slide}
+
+
+\begin{slide}
+  \h{Bold Text}
+
+  Normal text \textbf{bold text} normal text.
+
+  \lstinline!Normal text \b{bold text} normal text.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Italic Text}
+
+  Normal text \textit{italic text} normal text.
+
+  \lstinline!Normal text \it{italic text} normal text.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Strike Through Text}
+
+  Normal text \sout{strike through text} normal text.
+
+  \lstinline!Normal text \s{strike through text} normal text.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Underlined Text}
+
+  Normal text \underline{underlined text} normal text.
+
+  \lstinline!Normal text \u{underlined text} normal text.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Teletype Text}
+
+  Normal text \texttt{teletype text} normal text.
+
+  \lstinline!Normal text \tt{teletype text} normal text.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Subscripts}
+
+  Normal text sub\textsubscript{scripts} normal text.
+
+  \lstinline!Normal text sub\sub{scripts} normal text.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Superscripts}
+
+  Normal text super\textsuperscript{scripts} normal text.
+
+  \lstinline!Normal text super\sup{scripts} normal text.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Bigger Text}
+
+  Normal text {\large bigger text} normal text.
+
+  \lstinline!Normal text \big{bigger text} normal text.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Smaller Text}
+
+  Normal text {\small smaller text} normal text.
+
+  \lstinline!Normal text \small{smaller text} normal text.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Commands Can Nest}
+
+  Normal text \textit{\textbf{bold and italic text}} normal text.
+
+  \lstinline!Normal text \it{\b{bold and italic text}} normal text.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Short-Term Goals}
+
+  \begin{itemize}
+  \item HTTPS
+  \item Emailed password resets
+  \item User groups and private sharing
+  \item Lambdas
+  \item Includes
+  \item \textellipsis
+  \end{itemize}
 \end{slide}
 
 
