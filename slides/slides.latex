@@ -215,7 +215,7 @@
 
   \fullSlideImage{geocities.eps}
 
-  \textit{(It's not quite that bad.)}
+  \textit{(It's pretty ugly currently, but it's not quite that bad.)}
 \end{slide}
 
 
@@ -375,6 +375,28 @@ Some text ...
 
 
 \begin{slide}
+  \h{Literals}
+
+  \begin{tabular}{llr}
+    Backslash       & \lstinline!\-/!       & \hspace{5em}/   \\
+    Opening Brace   & \lstinline!\-(!       & \{              \\
+    Closing Brace   & \lstinline!\)-!       & \}              \\
+    Opening Bracket & \lstinline!\((!       & [               \\
+    Closing Bracket & \lstinline!\))!       & ]               \\
+    Pipe            & \lstinline!\pipe!     & \textbar        \\
+    Backquote       & \lstinline!\'!        & $\backprime$    \\
+    Dollar          & \lstinline!\dollar!   & \$              \\
+    Squiggle        & \lstinline!\squiggle! & \textasciitilde \\
+  \end{tabular}
+\end{slide}
+
+
+\begin{slide}
+  \SlideSection{Text Formatting}
+\end{slide}
+
+
+\begin{slide}
   \h{Bold Text}
 
   Normal text \textbf{bold text} normal text.
@@ -465,6 +487,199 @@ Some text ...
 
 
 \begin{slide}
+  \h{Bullet Lists}
+
+  \begin{itemize}
+  \item dogs
+  \item cats
+  \item rabbits
+  \end{itemize}
+
+\begin{lstlisting}
+\ul{
+  \li{dogs}
+  \li{cats}
+  \li{rabbits}}
+\end{lstlisting}
+\end{slide}
+
+
+\begin{slide}
+  \h{Numbered Lists}
+
+  \begin{enumerate}
+  \item gold medal
+  \item silver medal
+  \item bronze medal
+  \item losers ...
+  \end{enumerate}
+
+\begin{lstlisting}
+\ol{
+  \li{gold medal}
+  \li{silver medal}
+  \li{bronze medal}
+  \li{losers ...}}
+\end{lstlisting}
+\end{slide}
+
+
+\begin{slide}
+  \SlideSection{Math}
+\end{slide}
+
+
+\begin{slide}
+  \h{Constants}
+
+  $\pi$: \lstinline!\pi!: 3.14159.
+
+  $e$: \lstinline!\e!: 2.718281828499045.
+
+  $i$: \lstinline!\i!: \textcolor{Red}{not yet}.
+\end{slide}
+
+
+\begin{slide}
+  \h{Addition}
+
+  Let's do addition: 15.
+
+  \lstinline!Let's do addition: \+{1 2 3 4 5}.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Subtraction}
+
+  Let's do subtraction: 38.
+
+  \lstinline!Let's do subtraction: \-{2016 1978}.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Multiplication}
+
+  Let's do multiplication: 15,300.
+
+  \lstinline!Let's do multiplication: \*{7.65 40 50}.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Division}
+
+  Let's do division: 1,760.
+
+  \lstinline!Let's do multiplication: \/{5280 3}.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Exponentiation}
+
+  Exponents: 110,592.
+
+  \lstinline!Exponents: \^{48 3}.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Modulo}
+
+  Modulo: 0.4.
+
+  \lstinline!Modulo: \%{10 4}.!
+\end{slide}
+
+
+\begin{slide}
+  \h{Trigonometry}
+
+  $$\sin(\pi) = 0$$
+
+  \lstinline!\sin{\pi}!
+
+  $$\cos(\pi) = -1.0$$
+
+  \lstinline!\cos{\pi}!
+
+  $$\tan(\pi) = 0$$
+
+  \lstinline!\tan{\pi}!
+\end{slide}
+
+
+\begin{slide}
+  \SlideSection{It's More Fun to Compute}
+\end{slide}
+
+
+\begin{slide}
+  \h{Boolean And}
+
+  true $\land$ false = false
+
+  \lstinline!\and{true false}!
+
+  true $\land$ true = true
+
+  \lstinline!\and{true true}!
+\end{slide}
+
+\begin{slide}
+  \h{Boolean Or}
+
+  true $\lor$ false = true
+
+  \lstinline!\or{true false}!
+
+  true $\lor$ true = true
+
+  \lstinline!\or{true true}!
+
+  false $\lor$ false = false
+
+  \lstinline!\or{false false}!
+\end{slide}
+
+\begin{slide}
+  \h{Boolean Not}
+
+  $\lnot$ true = false
+
+  \lstinline!\not{true}!
+
+  $\lnot$ false = true
+
+  \lstinline!\not{false}!
+\end{slide}
+
+
+\begin{slide}
+  \h{Variables}
+
+  4077\\
+  13\\
+  4064
+  
+\begin{lstlisting}
+\def{x 4077}
+\def{y 13}
+\-{\x \y}
+\end{lstlisting}
+\end{slide}
+
+
+\begin{slide}
+  \h{Looping}
+
+  Let's look at the webpage \textellipsis
+\end{slide}
+
+
+\begin{slide}
   \h{Short-Term Goals}
 
   \begin{itemize}
@@ -473,6 +688,9 @@ Some text ...
   \item User groups and private sharing
   \item Lambdas
   \item Includes
+  \item Chatrooms
+  \item Cardboards like Trello
+  \item REPLs?  Maybe?
   \item \textellipsis
   \end{itemize}
 \end{slide}
